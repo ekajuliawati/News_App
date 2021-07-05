@@ -21,7 +21,7 @@ class HomeView extends StatelessWidget {
                   style: kNonActiveTabStyle,
                 ),
                 subtitle: Text(
-                  "Jessica Veranda",
+                  "Eka Juliawati",
                   textAlign: TextAlign.end,
                   style: kActiveTabStyle,
                 ),

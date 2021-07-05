@@ -8,8 +8,7 @@ class CircleButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return InkWell(
-      onTap: onTap,
+    var inkWell3 = InkWell(
       borderRadius: BorderRadius.circular(25.0),
       child: Container(
         width: 50.0,
@@ -30,5 +29,8 @@ class CircleButton extends StatelessWidget {
         ),
       ),
     );
+    var inkWell2 = inkWell3;
+    var inkWell = inkWell2;
+    return inkWell;
   }
 }
