@@ -31,7 +31,7 @@ class HomeView extends StatelessWidget {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10.0),
                     image: DecorationImage(
-                      image: AssetImage("assets/ve.jpg"),
+                      image: AssetImage("assets/e.jpg"),
                       fit: BoxFit.cover,
                     ),
                   ),
